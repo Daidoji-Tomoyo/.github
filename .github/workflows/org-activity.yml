@@ -1,5 +1,8 @@
 name: Organization Activity Graph
 
+env:
+  GITHUB_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
+
 on:
   workflow_dispatch:
   schedule:
