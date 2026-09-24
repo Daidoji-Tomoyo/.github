@@ -1,0 +1,45 @@
+name: Organization Activity Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每天 UTC 18:00 自动更新
+    - cron: "0 18 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Generate organization activity graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_STATS_TOKEN || github.token }}
+        run: |
+          python scripts/generate_org_activity.py \
+            --org Daidoji-Tomoyo \
+            --output profile-org-contrib
+
+      - name: Commit generated graphs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile-org-contrib/
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update organization activity graph"
+            git push
+          fi
