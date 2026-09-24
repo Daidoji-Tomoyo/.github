@@ -1,0 +1,69 @@
+name: Organization Profile 3D Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 你的 Organization .github 仓库
+      - name: Checkout organization profile
+        uses: actions/checkout@v5
+
+      # 下载与你个人主页相同的原版 renderer
+      - name: Checkout original github-profile-3d-contrib
+        uses: actions/checkout@v5
+        with:
+          repository: yoshi389111/github-profile-3d-contrib
+          ref: latest
+          path: .upstream/github-profile-3d-contrib
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # 安装原版自己的依赖
+      - name: Install original dependencies
+        working-directory: .upstream/github-profile-3d-contrib
+        run: npm ci
+
+      # 把我们的 Organization 数据适配器放进原版 src
+      - name: Install organization adapter
+        run: |
+          cp \
+            scripts/org-profile-3d.ts \
+            .upstream/github-profile-3d-contrib/src/org-profile-3d.ts
+
+      # 使用 Organization PAT 读取公开/私有仓库数据
+      - name: Generate original-style organization profile
+        working-directory: .upstream/github-profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.ORG_STATS_TOKEN }}
+          ORG: Daidoji-Tomoyo
+          OUTPUT_DIR: ${{ github.workspace }}/profile/profile-3d-contrib
+        run: |
+          npx ts-node src/org-profile-3d.ts
+
+      - name: Commit generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/profile-3d-contrib/
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "generated"
+            git push
+          fi
