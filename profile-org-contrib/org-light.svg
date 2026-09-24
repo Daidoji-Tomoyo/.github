@@ -34,7 +34,7 @@ Daidoji-Tomoyo · Organization Activity
   font-size="12"
   font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"
 >
-0 commits · 0 repositories · last 53 weeks
+86 commits · 1 repositories · last 53 weeks
 </text>
 
 <text
@@ -3981,16 +3981,29 @@ Sep
 <title>2026-08-30: 0 commits</title>
 </rect>
 
+<g>
+<title>2026-08-31: 2 commits</title>
+
 <rect
   x="756"
-  y="104"
+  y="97"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-08-31: 0 commits</title>
-</rect>
+  height="17"
+  rx="1"
+  fill="#9be9a8"
+/>
+
+<polygon
+  points="
+    766,97
+    769,94
+    769,111
+    766,114
+  "
+  fill="#6fa778"
+/>
+
+</g>
 
 <rect
   x="756"
@@ -4003,27 +4016,53 @@ Sep
 <title>2026-09-01: 0 commits</title>
 </rect>
 
-<rect
-  x="756"
-  y="132"
-  width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-02: 0 commits</title>
-</rect>
+<g>
+<title>2026-09-02: 1 commits</title>
 
 <rect
   x="756"
-  y="146"
+  y="125"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-03: 0 commits</title>
-</rect>
+  height="17"
+  rx="1"
+  fill="#9be9a8"
+/>
+
+<polygon
+  points="
+    766,125
+    769,122
+    769,139
+    766,142
+  "
+  fill="#6fa778"
+/>
+
+</g>
+
+<g>
+<title>2026-09-03: 1 commits</title>
+
+<rect
+  x="756"
+  y="139"
+  width="10"
+  height="17"
+  rx="1"
+  fill="#9be9a8"
+/>
+
+<polygon
+  points="
+    766,139
+    769,136
+    769,153
+    766,156
+  "
+  fill="#6fa778"
+/>
+
+</g>
 
 <rect
   x="756"
@@ -4058,60 +4097,125 @@ Sep
 <title>2026-09-06: 0 commits</title>
 </rect>
 
-<rect
-  x="770"
-  y="104"
-  width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-07: 0 commits</title>
-</rect>
+<g>
+<title>2026-09-07: 3 commits</title>
 
 <rect
   x="770"
-  y="118"
+  y="93"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-08: 0 commits</title>
-</rect>
+  height="21"
+  rx="1"
+  fill="#40c463"
+/>
+
+<polygon
+  points="
+    780,93
+    783,90
+    783,111
+    780,114
+  "
+  fill="#2e8d47"
+/>
+
+</g>
+
+<g>
+<title>2026-09-08: 11 commits</title>
 
 <rect
   x="770"
-  y="132"
+  y="103"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-09: 0 commits</title>
-</rect>
+  height="25"
+  rx="1"
+  fill="#30a14e"
+/>
+
+<polygon
+  points="
+    780,103
+    783,100
+    783,125
+    780,128
+  "
+  fill="#227338"
+/>
+
+</g>
+
+<g>
+<title>2026-09-09: 4 commits</title>
 
 <rect
   x="770"
-  y="146"
+  y="121"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-10: 0 commits</title>
-</rect>
+  height="21"
+  rx="1"
+  fill="#40c463"
+/>
+
+<polygon
+  points="
+    780,121
+    783,118
+    783,139
+    780,142
+  "
+  fill="#2e8d47"
+/>
+
+</g>
+
+<g>
+<title>2026-09-10: 4 commits</title>
 
 <rect
   x="770"
-  y="160"
+  y="135"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-11: 0 commits</title>
-</rect>
+  height="21"
+  rx="1"
+  fill="#40c463"
+/>
+
+<polygon
+  points="
+    780,135
+    783,132
+    783,153
+    780,156
+  "
+  fill="#2e8d47"
+/>
+
+</g>
+
+<g>
+<title>2026-09-11: 2 commits</title>
+
+<rect
+  x="770"
+  y="153"
+  width="10"
+  height="17"
+  rx="1"
+  fill="#9be9a8"
+/>
+
+<polygon
+  points="
+    780,153
+    783,150
+    783,167
+    780,170
+  "
+  fill="#6fa778"
+/>
+
+</g>
 
 <rect
   x="770"
@@ -4135,60 +4239,125 @@ Sep
 <title>2026-09-13: 0 commits</title>
 </rect>
 
-<rect
-  x="784"
-  y="104"
-  width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-14: 0 commits</title>
-</rect>
+<g>
+<title>2026-09-14: 15 commits</title>
 
 <rect
   x="784"
-  y="118"
+  y="85"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-15: 0 commits</title>
-</rect>
+  height="29"
+  rx="1"
+  fill="#216e39"
+/>
+
+<polygon
+  points="
+    794,85
+    797,82
+    797,111
+    794,114
+  "
+  fill="#174f29"
+/>
+
+</g>
+
+<g>
+<title>2026-09-15: 13 commits</title>
 
 <rect
   x="784"
-  y="132"
+  y="99"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-16: 0 commits</title>
-</rect>
+  height="29"
+  rx="1"
+  fill="#216e39"
+/>
+
+<polygon
+  points="
+    794,99
+    797,96
+    797,125
+    794,128
+  "
+  fill="#174f29"
+/>
+
+</g>
+
+<g>
+<title>2026-09-16: 13 commits</title>
 
 <rect
   x="784"
-  y="146"
+  y="113"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-17: 0 commits</title>
-</rect>
+  height="29"
+  rx="1"
+  fill="#216e39"
+/>
+
+<polygon
+  points="
+    794,113
+    797,110
+    797,139
+    794,142
+  "
+  fill="#174f29"
+/>
+
+</g>
+
+<g>
+<title>2026-09-17: 5 commits</title>
 
 <rect
   x="784"
-  y="160"
+  y="131"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-18: 0 commits</title>
-</rect>
+  height="25"
+  rx="1"
+  fill="#30a14e"
+/>
+
+<polygon
+  points="
+    794,131
+    797,128
+    797,153
+    794,156
+  "
+  fill="#227338"
+/>
+
+</g>
+
+<g>
+<title>2026-09-18: 10 commits</title>
+
+<rect
+  x="784"
+  y="145"
+  width="10"
+  height="25"
+  rx="1"
+  fill="#30a14e"
+/>
+
+<polygon
+  points="
+    794,145
+    797,142
+    797,167
+    794,170
+  "
+  fill="#227338"
+/>
+
+</g>
 
 <rect
   x="784"
@@ -4201,16 +4370,29 @@ Sep
 <title>2026-09-19: 0 commits</title>
 </rect>
 
+<g>
+<title>2026-09-20: 2 commits</title>
+
 <rect
   x="798"
-  y="90"
+  y="83"
   width="10"
-  height="10"
-  rx="2"
-  fill="#ebedf0"
->
-<title>2026-09-20: 0 commits</title>
-</rect>
+  height="17"
+  rx="1"
+  fill="#9be9a8"
+/>
+
+<polygon
+  points="
+    808,83
+    811,80
+    811,97
+    808,100
+  "
+  fill="#6fa778"
+/>
+
+</g>
 
 <rect
   x="798"
