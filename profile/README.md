@@ -13,14 +13,13 @@ and sharing useful tools with the community.
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Daidoji-Tomoyo/.github/main/profile-org-contrib/org-night.svg"
+    srcset="./profile-3d-contrib/profile-night-rainbow.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Daidoji-Tomoyo/.github/main/profile-org-contrib/org-light.svg"
+    srcset="./profile-3d-contrib/profile-gitblock.svg"
   />
   <img
-    alt="Daidoji-Tomoyo organization activity"
-    src="https://raw.githubusercontent.com/Daidoji-Tomoyo/.github/main/profile-org-contrib/org-light.svg"
+    src="./profile-3d-contrib/profile-night-rainbow.svg"
   />
 </picture>
